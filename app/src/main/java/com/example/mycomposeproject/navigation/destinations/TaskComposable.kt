@@ -6,6 +6,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.example.mycomposeproject.util.Action
 import com.example.mycomposeproject.util.Constant
+import com.example.mycomposeproject.util.Constant.TASK_ARGUMENT_KEY
 import com.example.mycomposeproject.util.Constant.TASK_SCREEN
 
 fun NavGraphBuilder.taskComposable(
@@ -13,7 +14,7 @@ fun NavGraphBuilder.taskComposable(
 ) {
     composable(
         route = TASK_SCREEN,
-        arguments = listOf(navArgument(Constant.TASK_ARGUMENT_KEY) {
+        arguments = listOf(navArgument(TASK_ARGUMENT_KEY) {
             type = NavType.IntType
         })
     ){
