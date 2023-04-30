@@ -3,7 +3,7 @@ package com.example.mycomposeproject.di
 import android.content.Context
 import androidx.room.Room
 import com.example.mycomposeproject.data.ToDoDatabase
-import com.example.mycomposeproject.data.util.Constant.DATABASE_NAME
+import com.example.mycomposeproject.util.Constant.DATABASE_NAME
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

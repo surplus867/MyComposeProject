@@ -2,7 +2,7 @@ package com.example.mycomposeproject.data.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.mycomposeproject.data.util.Constant.DATABASE_TABLE
+import com.example.mycomposeproject.util.Constant.DATABASE_TABLE
 
 @Entity(tableName = DATABASE_TABLE)
 data class ToDoTask(
